@@ -1,52 +1,47 @@
-由于当前环境中无法直接打开或查看Excel文件，我无法读取文件“功能需求.xlsx”的内容。不过，我可以帮你编写一个基于你之前描述的食物分享平台的README文件草案。如果你有特定的内容在Excel文件中，你可以提供文件中的具体信息，或者上传文件内容的截图。下面是一个根据你之前描述的需求重写的README文件模板：
 
-```markdown
-# ShareBites - 食物分享平台
+## ShareBites - Food Sharing Platform
 
-## 项目简介
-ShareBites是一个旨在减少食物浪费和帮助需要食物的人的社交平台。用户可以分享他们多余的食物，或者搜索他们附近可用的食物。这个平台利用Google地图展示食物的位置，让用户能够轻松地找到或提供帮助。
+## Project Description
+ShareBites is a social platform that aims to reduce food waste and help people in need of food. Users can share their excess food or search for available food in their neighborhood. The platform utilizes Google Maps to show the location of food, allowing users to easily find or offer help.
 
-## 主要功能
-- **食物分享**: 用户可以上传他们想要分享的食物信息，包括名称、图片和位置。
-- **食物搜索**: 需要食物的用户可以在地图上看到附近的食物分享，并查看详情。
-- **地图交互**: 食物图标的大小会根据用户的位置动态调整，以表示距离。
-- **详情查看**: 用户可以点击地图上的食物图标，查看食物的详细信息和距离。
-- **建立联系**: 用户可以通过点击“我想要”按钮与食物分享者建立联系。
+## Key Features
+- **Food Sharing**: Users can upload information about the food they want to share, including name, picture and location.
+- **Food Search**: Users in need of food can see nearby food shares on the map and view details.
+- **MAP INTERACTION**: The size of the food icon is dynamically adjusted according to the user's location to indicate the distance.
+- **DETAIL VIEW**: Users can click on the food icon on the map to view the details and distance of the food.
+- **Connect**: Users can connect with food sharers by clicking the "I want" button.
 
-## 技术栈
-- **后端**: Java Spring Boot
-- **前端**: HTML, CSS, JavaScript (可能使用React或Angular)
-- **数据库**: MySQL或MongoDB
+## Technology Stack
+- **Backend**: Java Spring Boot
+- **Frontend**: HTML, CSS, JavaScript (possibly using React or Angular)
+- **Database**: MySQL or MongoDB
 - **API**: Google Maps API
 
-## 安装指南
+## Installation Guide
 
-确保你的系统已经安装了Java JDK 1.8或更高版本以及Maven。
+Make sure you have Java JDK 1.8 or higher and Maven installed on your system.
 
 ```bash
-# 克隆仓库
-git clone [你的仓库链接]
+# Clone the repository
+git clone [link to your repository].
 
-# 进入项目目录
+# Go to the project directory
 cd shareBitesDemo
 
-# 使用Maven编译项目
+# Compile the project using Maven
 mvn install
 
-# 运行应用
+# Run the application
 mvn spring-boot:run
-```
+``
 
-## 贡献指南
-我们欢迎并感谢任何形式的贡献。你可以通过以下方式参与项目：
-1. 提交问题报告或功能请求
-2. 提交拉取请求（PR）以提出改进
+## Contribution guidelines
+We welcome and appreciate contributions of any kind. You can participate in the project in the following ways:
+1. submitting an issue report or feature request
+2. submitting a pull request (PR) to suggest an improvement
 
-请在提交PR之前确保遵循代码规范。
+Please make sure you follow the code specification before submitting a PR.
 
-## 许可证
-本项目采用[MIT许可证](LICENSE)。
+## License
+This project is under the [MIT License] (LICENSE).
 
-```
-
-请确保将[你的仓库链接]替换为你的GitHub仓库链接，并根据实际情况修改技术栈、安装指南和其他相关信息。此外，如果你有特定的代码规范和贡献指南，请加以说明。如果你提供Excel文件中的详细需求，我可以进一步定制这个README文件。

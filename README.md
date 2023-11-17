@@ -13,8 +13,8 @@ ShareBites is a social platform that aims to reduce food waste and help people i
 
 ## Technology Stack
 - **Backend**: Java Spring Boot
-- **Frontend**: HTML, CSS, JavaScript (possibly using React or Angular)
-- **Database**: MySQL or MongoDB
+- **Frontend**: HTML, CSS, JavaScript
+- **Database**: MySQL
 - **API**: Google Maps API
 
 ## Installation Guide

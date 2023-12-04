@@ -21,7 +21,7 @@ Follow these steps to set up your development environment:
 1. Clone the repository to your local machine.
 
 ```bash
-git clone https://github.com/yourusername/ShareBitesDemo.git
+git clone https://github.com/Zutttong/ShareBitesDemo.git
 ```
 
 2. Open the cloned repository with a Java-supported IDE and set it up as a Maven project to import all the dependencies.
@@ -68,15 +68,15 @@ npm run serve
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/yourusername/ShareBitesDemo/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/Zutttong/ShareBitesDemo/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/yourusername/ShareBitesDemo/tags). 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/Zutttong/ShareBitesDemo/tags). 
 
 ## Authors
 
-* **Your Name** - *Initial work* - [yourusername](https://github.com/yourusername)
+* **Zutong Hu & Anirudh Kathikar** - *Initial work*
 
 ## License
 
@@ -88,5 +88,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * Inspiration
 * etc
 ```
-
-Make sure to replace placeholders (like `yourusername`, `Your Name`, and other relevant fields) with actual information related to your project. This README gives a clear set of instructions for setting up the project and acknowledges the frameworks and tools used in the development.

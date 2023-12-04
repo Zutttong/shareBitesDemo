@@ -1,4 +1,3 @@
-```markdown
 # ShareBitesDemo Project
 
 Welcome to the ShareBitesDemo repository. This project is a full-stack web application that utilizes Java for the backend and JavaScript (Vue.js) for the frontend.

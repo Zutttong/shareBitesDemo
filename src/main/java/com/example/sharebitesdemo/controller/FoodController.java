@@ -25,7 +25,7 @@ public class FoodController {
             json=new Json("error","",1);
         }
         return json.getJson();
-    };
+    }
 
     @PutMapping("update/food/status")   //PutMapping是更新资源
     public JSONObject UpdateFoodsStatus(String status,String id){

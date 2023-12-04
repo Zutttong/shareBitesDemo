@@ -61,10 +61,14 @@ npm run serve
 
 ## Built With
 
-* [Spring Boot](https://spring.io/projects/spring-boot) - The backend framework
-* [Vue.js](https://vuejs.org/) - The frontend framework
-* [Maven](https://maven.apache.org/) - Dependency management for Java
-* [npm](https://npmjs.com/) - Dependency management for JavaScript
+This project is built using a variety of programming languages and frameworks, each contributing to the functionality and aesthetics of the application:
+
+- [Vue.js](https://vuejs.org/) - A progressive JavaScript framework used for building user interfaces, constitutes 57.9% of the codebase.
+- [Java](https://www.oracle.com/java/) - A high-level, class-based, object-oriented programming language that is used to build the backend logic, making up 24.3% of the project.
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - A dynamic programming language that's essential for web development, accounting for 11.0% of the code.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - The language used to describe the presentation of HTML documents, comprising 4.5% of the project.
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - The standard markup language for documents designed to be displayed in a web browser, representing 2.3% of the codebase.
+
 
 ## Contributing
 

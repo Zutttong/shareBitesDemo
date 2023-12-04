@@ -50,7 +50,7 @@
             <div class="info">
               <div class="name">name:{{ item.name }}</div>
               <div class="date">date:{{ item.date }}</div>
-              <el-button @click="handleDelist(item.id)">下架</el-button>
+              <el-button @click="handleDelist(item.id)">End Listing</el-button>
             </div>
           </li>
         </ul>
@@ -322,7 +322,7 @@ export default {
       height: 50px;
       margin-bottom: 20px;
 
-      // titlepro为选中，titlepro1为为选中
+      // titlepro is checked, titlepro1 is checked.
       .titlepro {
         cursor: pointer;
         width: 50%;
@@ -336,7 +336,7 @@ export default {
       }
     }
 
-    // 我的收藏
+    // my collection
     .bottomlist {
       width: 32%;
       margin-right: 2%;
@@ -398,7 +398,7 @@ export default {
       }
     }
 
-    // 我的评论
+    // my comments
     .dispro {
       position: relative;
       cursor: pointer;
@@ -468,7 +468,7 @@ export default {
 
     }
 
-    //  收藏为空
+    //  collection is empty
     .collectzero {
       width: 70%;
       margin: 0 auto;

@@ -49,7 +49,7 @@ public class FoodController {
         return json;
     }
     @GetMapping("get/near/food")
-    public JSONObject getUserFood(double lng,double lat){
+    public JSONObject getNearFood(double lng,double lat){
         JSONObject[] js=foodService.getNearFood(lng,lat);
         JSONObject json = new JSONObject();
         json.put("data", js);

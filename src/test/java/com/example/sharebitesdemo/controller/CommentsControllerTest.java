@@ -1,16 +1,27 @@
+
+
 package com.example.sharebitesdemo.controller;
 
-import org.junit.jupiter.api.Test;
+        import com.alibaba.fastjson.JSONObject;
+        import com.example.sharebitesdemo.ShareBitesDemoApplication;
+        import com.example.sharebitesdemo.service.CommnetsService;
+        import org.junit.Test;
+        import org.junit.runner.RunWith;
+        import org.springframework.beans.factory.annotation.Autowired;
+        import org.springframework.boot.test.context.SpringBootTest;
+        import org.springframework.test.context.junit4.SpringRunner;
 
-import static org.junit.jupiter.api.Assertions.*;
+        import static org.junit.Assert.*;
 
-class CommentsControllerTest {
-
+@SpringBootTest(classes = ShareBitesDemoApplication.class)
+@RunWith(SpringRunner.class)
+public class CommentsControllerTest {
+    @Autowired
+    private CommnetsService commnetsService;
     @Test
-    void postContent() {
-    }
-
-    @Test
-    void getComments() {
+    public void getComments() {
+        String id="xxxx";
+        JSONObject[] js = commnetsService.getComments(id);
+        System.out.println("hello world");
     }
 }

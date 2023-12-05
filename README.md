@@ -70,17 +70,9 @@ This project is built using a variety of programming languages and frameworks, e
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - The standard markup language for documents designed to be displayed in a web browser, representing 2.3% of the codebase.
 
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://github.com/Zutttong/ShareBitesDemo/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/Zutttong/ShareBitesDemo/tags). 
-
 ## Authors
 
-* **Zutong Hu & Anirudh Kathikar** - *Initial work*
+* **Zutong Hu & Anirudh Kathikar**
 
 ## License
 
